@@ -1,0 +1,36 @@
+{
+  "itemGroup.mountingcharge": "Mounting Charge",
+
+  "item.mountingcharge.elektik_stone_ore": "Elektik Ore",
+  "item.mountingcharge.elektik_deepslate_ore": "Deepslate Elektik Ore",
+  "item.mountingcharge.elektik": "Elektik",
+  "item.mountingcharge.elektik_block": "Block of Elektik",
+  "item.mountingcharge.crackled_elektik": "Crackled Elektik",
+  "item.mountingcharge.elektik_sand": "Elektik Sand",
+  "item.mountingcharge.charged_elektik": "Charged Elektik",
+
+  "item.mountingcharge.amborium_stone_ore": "Amborium Ore",
+  "item.mountingcharge.amborium_deepslate_ore": "Deepslate Amborium Ore",
+  "item.mountingcharge.raw_amborium": "Raw Amborium",
+  "item.mountingcharge.raw_amborium_block": "Block of Raw Amborium",
+  "item.mountingcharge.amborium_ingot": "Amborium Ingot",
+  "item.mountingcharge.amborium_block": "Block of Amborium",
+  "item.mountingcharge.redstone_powercell": "Redstone Powercell",
+
+  "item.mountingcharge.mica_stone_ore": "Mica Ore",
+  "item.mountingcharge.mica_deepslate_ore": "Deepslate Mica Ore",
+  "item.mountingcharge.mica": "Mica",
+  "item.mountingcharge.mica_block": "Block of Mica",
+  "item.mountingcharge.mica_pillar": "Mica Pillar",
+
+  "item.mountingcharge.inertstone_dust": "Inertstone Dust",
+  "item.mountingcharge.inertstone_block": "Block of Inertstone",
+
+  "item.mountingcharge.volkite_blend": "Volkite Blend",
+  "item.mountingcharge.volkite_ingot": "Volkite Ingot",
+  "item.mountingcharge.volkite_block": "Block of Volkite",
+  "item.mountingcharge.volkite_powercell": "Volkite Powercell",
+
+  "item.mountingcharge.lightning_caller": "Lightning Caller",
+  "item.mountingcharge.lightning_caller.desc": "Better used in the offhand."
+}

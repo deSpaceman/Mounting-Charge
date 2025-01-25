@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mountingcharge:block/mica_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mountingcharge:block/mica_block"
+    },
+    "axis=z": {
+      "model": "mountingcharge:block/mica_block",
+      "x": 90
+    }
+  }
+}

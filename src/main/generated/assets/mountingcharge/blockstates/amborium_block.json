@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mountingcharge:block/amborium_block"
+    }
+  }
+}

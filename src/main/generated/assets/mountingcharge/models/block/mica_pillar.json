@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mountingcharge:block/mica_pillar_top",
+    "side": "mountingcharge:block/mica_pillar_side"
+  }
+}

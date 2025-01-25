@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mountingcharge:block/raw_amborium_block"
+  }
+}

@@ -1,0 +1,5 @@
+// 1.21.4	-999999999-01-01T00:00:00	Mounting Charge/Tags for minecraft:block
+0d28dd2ecee3bf6269284861fdeb1bb5969e7e48 data/minecraft/tags/block/mineable/pickaxe.json
+f1147f4e512157022fa4282f7edad9b96b9d317e data/minecraft/tags/block/mineable/shovel.json
+8f7dd728faf9b78190ca85b53f6dae5a93f381b0 data/minecraft/tags/block/needs_iron_tool.json
+5914680105dab8ff2b4e55c1408064befd3b3920 data/minecraft/tags/block/needs_stone_tool.json
