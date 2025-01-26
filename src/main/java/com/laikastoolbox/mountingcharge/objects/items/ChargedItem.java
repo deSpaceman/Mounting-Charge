@@ -24,12 +24,19 @@ public class ChargedItem extends Item {
         } else return 0;
     }
 
-    public void modifyCharge(ItemStack stack, int chargeChange) {
+    public void addCharge(ItemStack stack, int chargeChange) {
         int currentCharge = getCurrentCharge(stack);
-        boolean lessThanZero = currentCharge + chargeChange < 0;
 
-        if (currentCharge < getMaxCharge() && !lessThanZero) {
+        if (currentCharge < getMaxCharge()) {
             stack.set(MountingChargeDataComponents.CHARGE, currentCharge + chargeChange);
+        }
+    }
+
+    public void subtractCharge(ItemStack stack, int chargeChange) {
+        int currentCharge = getCurrentCharge(stack);
+
+        if (currentCharge > 0) {
+            stack.set(MountingChargeDataComponents.CHARGE, currentCharge - chargeChange);
         }
     }
 

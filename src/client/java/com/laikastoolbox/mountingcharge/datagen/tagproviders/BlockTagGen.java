@@ -1,6 +1,7 @@
 package com.laikastoolbox.mountingcharge.datagen.tagproviders;
 
 import com.laikastoolbox.mountingcharge.objects.MountingChargeBlocks;
+import com.laikastoolbox.mountingcharge.properties.MountingChargeTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
@@ -37,6 +38,10 @@ public class BlockTagGen extends FabricTagProvider<Block> {
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(MountingChargeBlocks.ELEKTIK_SAND)
                 .add(MountingChargeBlocks.INERTSTONE_BLOCK);
+
+        getOrCreateTagBuilder(MountingChargeTags.BlockTags.ROCKPIERCER_MINEABLE)
+                .addTag(BlockTags.PICKAXE_MINEABLE)
+                .addTag(BlockTags.SHOVEL_MINEABLE);
 
         //Mining Tiers
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)

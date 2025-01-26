@@ -15,6 +15,7 @@
   "item.mountingcharge.raw_amborium_block": "Block of Raw Amborium",
   "item.mountingcharge.amborium_ingot": "Amborium Ingot",
   "item.mountingcharge.amborium_block": "Block of Amborium",
+  "item.mountingcharge.amborium_thunderblade": "Amborium Thunderblade",
   "item.mountingcharge.redstone_powercell": "Redstone Powercell",
 
   "item.mountingcharge.mica_stone_ore": "Mica Ore",
@@ -32,5 +33,7 @@
   "item.mountingcharge.volkite_powercell": "Volkite Powercell",
 
   "item.mountingcharge.lightning_caller": "Lightning Caller",
-  "item.mountingcharge.lightning_caller.desc": "Better used in the offhand."
+  "item.mountingcharge.lightning_caller.desc": "Better used in the offhand.",
+
+  "message.mountingcharge.depleted_energy": "This item's energy reserves are depleted"
 }

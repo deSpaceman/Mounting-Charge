@@ -47,5 +47,7 @@ public class ModelGen extends FabricModelProvider {
         itemModelGenerator.register(MountingChargeItems.VOLKITE_POWERCELL, Models.GENERATED);
 
         itemModelGenerator.registerWithInHandModel(MountingChargeItems.LIGHTNING_CALLER);
+
+        itemModelGenerator.register(MountingChargeItems.AMBORIUM_THUNDERBLADE, Models.HANDHELD);
     }
 }

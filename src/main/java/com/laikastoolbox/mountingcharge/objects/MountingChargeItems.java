@@ -3,7 +3,9 @@ package com.laikastoolbox.mountingcharge.objects;
 import com.laikastoolbox.mountingcharge.MountingCharge;
 import com.laikastoolbox.mountingcharge.objects.items.ChargedItem;
 import com.laikastoolbox.mountingcharge.objects.items.LightningCallerItem;
+import com.laikastoolbox.mountingcharge.objects.items.tools.ThunderbladeItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -16,6 +18,7 @@ public class MountingChargeItems {
     public static final RegistryKey<Item> CHARGED_ELEKTIK_KEY = registerItemKey("charged_elektik");
     public static final RegistryKey<Item> RAW_AMBORIUM_KEY = registerItemKey("raw_amborium");
     public static final RegistryKey<Item> AMBORIUM_INGOT_KEY = registerItemKey("amborium_ingot");
+    public static final RegistryKey<Item> AMBORIUM_THUNDERBLADE_KEY = registerItemKey("amborium_thunderblade");
     public static final RegistryKey<Item> REDSTONE_POWERCELL_KEY = registerItemKey("redstone_powercell");
     public static final RegistryKey<Item> MICA_KEY = registerItemKey("mica");
     public static final RegistryKey<Item> LIGHTNING_CALLER_KEY = registerItemKey("lightning_caller");
@@ -39,6 +42,7 @@ public class MountingChargeItems {
 
     //Tools
     public static final Item LIGHTNING_CALLER = registerItem(new LightningCallerItem(new Item.Settings().registryKey(LIGHTNING_CALLER_KEY).maxDamage(250)), LIGHTNING_CALLER_KEY);
+    public static final Item AMBORIUM_THUNDERBLADE = registerItem(new ThunderbladeItem(ToolMaterial.DIAMOND, 1.0F, 1.0F, new Item.Settings().registryKey(AMBORIUM_THUNDERBLADE_KEY), 3), AMBORIUM_THUNDERBLADE_KEY);
 
     public static Item registerItem(Item item, RegistryKey<Item> registryKey) {
         return Registry.register(Registries.ITEM, registryKey.getValue(), item);

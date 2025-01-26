@@ -33,6 +33,7 @@ public class MountingChargeTab {
             itemGroup.add(MountingChargeBlocks.RAW_AMBORIUM_BLOCK);
             itemGroup.add(MountingChargeItems.AMBORIUM_INGOT);
             itemGroup.add(MountingChargeBlocks.AMBORIUM_BLOCK);
+            itemGroup.add(MountingChargeItems.AMBORIUM_THUNDERBLADE);
             itemGroup.add(MountingChargeItems.REDSTONE_POWERCELL);
             itemGroup.add(MountingChargeBlocks.MICA_STONE_ORE);
             itemGroup.add(MountingChargeBlocks.MICA_DEEPSLATE_ORE);
