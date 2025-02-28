@@ -16,6 +16,7 @@
   "item.mountingcharge.amborium_ingot": "Amborium Ingot",
   "item.mountingcharge.amborium_block": "Block of Amborium",
   "item.mountingcharge.amborium_thunderblade": "Amborium Thunderblade",
+  "item.mountingcharge.amborium_rockpiercer": "Amborium Rockpiecer",
   "item.mountingcharge.redstone_powercell": "Redstone Powercell",
 
   "item.mountingcharge.mica_stone_ore": "Mica Ore",
@@ -30,6 +31,8 @@
   "item.mountingcharge.volkite_blend": "Volkite Blend",
   "item.mountingcharge.volkite_ingot": "Volkite Ingot",
   "item.mountingcharge.volkite_block": "Block of Volkite",
+  "item.mountingcharge.volkite_thunderblade": "Volkite Thunderblade",
+  "item.mountingcharge.volkite_rockpiercer": "Volkite Rockpiecer",
   "item.mountingcharge.volkite_powercell": "Volkite Powercell",
 
   "item.mountingcharge.lightning_caller": "Lightning Caller",

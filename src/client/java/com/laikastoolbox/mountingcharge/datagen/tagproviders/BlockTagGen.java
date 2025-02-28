@@ -39,7 +39,7 @@ public class BlockTagGen extends FabricTagProvider<Block> {
                 .add(MountingChargeBlocks.ELEKTIK_SAND)
                 .add(MountingChargeBlocks.INERTSTONE_BLOCK);
 
-        getOrCreateTagBuilder(MountingChargeTags.BlockTags.ROCKPIERCER_MINEABLE)
+        getOrCreateTagBuilder(MountingChargeTags.ROCKPIERCER_MINEABLE)
                 .addTag(BlockTags.PICKAXE_MINEABLE)
                 .addTag(BlockTags.SHOVEL_MINEABLE);
 

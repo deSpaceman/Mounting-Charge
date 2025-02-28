@@ -34,6 +34,7 @@ public class MountingChargeTab {
             itemGroup.add(MountingChargeItems.AMBORIUM_INGOT);
             itemGroup.add(MountingChargeBlocks.AMBORIUM_BLOCK);
             itemGroup.add(MountingChargeItems.AMBORIUM_THUNDERBLADE);
+            itemGroup.add(MountingChargeItems.AMBORIUM_ROCKPIERCER);
             itemGroup.add(MountingChargeItems.REDSTONE_POWERCELL);
             itemGroup.add(MountingChargeBlocks.MICA_STONE_ORE);
             itemGroup.add(MountingChargeBlocks.MICA_DEEPSLATE_ORE);
@@ -46,6 +47,8 @@ public class MountingChargeTab {
             itemGroup.add(MountingChargeItems.VOLKITE_BLEND);
             itemGroup.add(MountingChargeItems.VOLKITE_INGOT);
             itemGroup.add(MountingChargeBlocks.VOLKITE_BLOCK);
+            itemGroup.add(MountingChargeItems.VOLKITE_THUNDERBLADE);
+            itemGroup.add(MountingChargeItems.VOLKITE_ROCKPIERCER);
             itemGroup.add(MountingChargeItems.VOLKITE_POWERCELL);
         });
     }

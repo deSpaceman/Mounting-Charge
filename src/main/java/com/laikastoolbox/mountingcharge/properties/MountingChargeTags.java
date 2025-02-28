@@ -8,19 +8,15 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class MountingChargeTags {
-    public static class BlockTags {
-        public static final TagKey<Block> ROCKPIERCER_MINEABLE = createTag("mineable/rockpiercer");
+    public static final TagKey<Block> ROCKPIERCER_MINEABLE = createBlockTag("mineable/rockpiercer");
 
-        private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MountingCharge.MOD_ID, name));
-        }
+    public static final TagKey<Item> AMBORIUM_TOOL_MATERIALS = createItemTag("amborium_tool_materials");
+    public static final TagKey<Item> VOLKITE_TOOL_MATERIALS = createItemTag("volkite_tool_materials");
+
+    private static TagKey<Block> createBlockTag(String name) {
+        return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MountingCharge.MOD_ID, name));
     }
-
-    public static class ItemTags {
-
-        private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(MountingCharge.MOD_ID, name));
-        }
+    private static TagKey<Item> createItemTag(String name) {
+        return TagKey.of(RegistryKeys.ITEM, Identifier.of(MountingCharge.MOD_ID, name));
     }
-
 }

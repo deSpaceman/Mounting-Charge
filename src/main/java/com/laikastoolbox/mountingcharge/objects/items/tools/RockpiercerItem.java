@@ -8,6 +8,6 @@ import net.minecraft.registry.tag.TagKey;
 
 public class RockpiercerItem extends ChargedToolItem {
     public RockpiercerItem(ToolMaterial material, TagKey<Block> effectiveBlocks, float attackDamage, float attackSpeed, Settings settings, int maxCharge) {
-        super(material, MountingChargeTags.BlockTags.ROCKPIERCER_MINEABLE, attackDamage, attackSpeed, settings, maxCharge);
+        super(material, MountingChargeTags.ROCKPIERCER_MINEABLE, attackDamage, attackSpeed, settings, maxCharge);
     }
 }
